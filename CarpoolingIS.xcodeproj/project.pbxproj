@@ -12,6 +12,8 @@
 		95194B112058310700CF3339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95194B0F2058310700CF3339 /* Main.storyboard */; };
 		95194B132058310700CF3339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95194B122058310700CF3339 /* Assets.xcassets */; };
 		95194B162058310700CF3339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95194B142058310700CF3339 /* LaunchScreen.storyboard */; };
+		952792192058674300D1A047 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952792182058674300D1A047 /* Result.swift */; };
+		9527921D2058691B00D1A047 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9527921C2058691B00D1A047 /* Results.swift */; };
 		FD42AF050382D4ABF717912D /* Pods_CarpoolingIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2933CA92E0B238287B7F7423 /* Pods_CarpoolingIS.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		95194B122058310700CF3339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95194B152058310700CF3339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95194B172058310700CF3339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952792182058674300D1A047 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		9527921C2058691B00D1A047 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		A55B18554A25B642D1FE8BA2 /* Pods-CarpoolingIS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarpoolingIS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarpoolingIS/Pods-CarpoolingIS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +67,8 @@
 			children = (
 				95194B0B2058310700CF3339 /* AppDelegate.swift */,
 				95194B0D2058310700CF3339 /* ViewController.swift */,
+				952792182058674300D1A047 /* Result.swift */,
+				9527921C2058691B00D1A047 /* Results.swift */,
 				95194B0F2058310700CF3339 /* Main.storyboard */,
 				95194B122058310700CF3339 /* Assets.xcassets */,
 				95194B142058310700CF3339 /* LaunchScreen.storyboard */,
@@ -218,7 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95194B0E2058310700CF3339 /* ViewController.swift in Sources */,
+				9527921D2058691B00D1A047 /* Results.swift in Sources */,
 				95194B0C2058310700CF3339 /* AppDelegate.swift in Sources */,
+				952792192058674300D1A047 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
